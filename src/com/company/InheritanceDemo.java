@@ -12,6 +12,9 @@ public class InheritanceDemo {
 //        CalcAdvPro cap1=new Calculator();   not possible
         Calculator cap1=new CalcAdvPro();
         cap.show(2,3);
+
+        CalcAdv ca1=new CalcAdvPro();
+        ca1.show(2,3);
     }
 }
 class Calculator{

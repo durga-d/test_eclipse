@@ -14,16 +14,16 @@ public class InnerDemo {
     }
 }
 
-class Outer{
+class Outer{  //Outer.class (bytecode file)
     void show(){
         System.out.println("Outer class");
     }
-    class Inner{
+    class Inner{     // Outer$Inner.class (bytecode file)
         void display(){
             System.out.println("Inner class");
         }
     }
-    static class StaticInner{     //use of static class
+    static class StaticInner{     //use of static class   //Outer$StaticInner.class (bytecode file)
         void display(){
             System.out.println("Static Inner class");
         }

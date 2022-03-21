@@ -22,3 +22,11 @@ interface Aaa{
     void show();
 }
 
+/*
+Abstract class - define and declare
+ Interface - declare only - till 1.7
+ 1.8 can define methods in interface. But it should be default method, Ex: "default void show()" (have to mention 'default')
+
+ vars created inside interface are constant by default(final)
+*/
+
